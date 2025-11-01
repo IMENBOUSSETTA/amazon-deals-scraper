@@ -1,0 +1,30 @@
+[
+  {
+    "category": "Headphones",
+    "title": "Sample Wireless Headphones X100",
+    "brand": "Acme",
+    "price": 59.99,
+    "original_price": 99.99,
+    "discount_pct": 40.0,
+    "rating": 4.4,
+    "reviews": 1234,
+    "product_link": "https://example.com/p/x100",
+    "image": "https://via.placeholder.com/300x300.png?text=X100",
+    "availability": "In stock",
+    "source": "sample"
+  },
+  {
+    "category": "Monitors",
+    "title": "Sample 27\" 144Hz Gaming Monitor",
+    "brand": "Zeta",
+    "price": 199.99,
+    "original_price": 299.99,
+    "discount_pct": 33.34,
+    "rating": 4.5,
+    "reviews": 842,
+    "product_link": "https://example.com/p/monitor-27",
+    "image": "https://via.placeholder.com/300x300.png?text=27in",
+    "availability": "In stock",
+    "source": "sample"
+  }
+]
