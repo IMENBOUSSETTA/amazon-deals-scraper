@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.env
+.venv/
+venv/
+*.log
+
+# Streamlit and Playwright
+playwright/.cache/
+playwright/.local-browsers/
+playwright/.user-data-dir/
+
+# IDE and OS
+.vscode/
+.DS_Store
+
+# MongoDB dump or data
+data/
+dump/
