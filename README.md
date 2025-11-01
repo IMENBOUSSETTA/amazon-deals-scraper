@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-## Setup
-docker compose up -d
-python -m venv .venv311
-.\.venv311\Scripts\activate
-pip install -r requirements.txt
-
-## Run
-python -m scraper.scraper.scrape_amazon_pdp "soin visage" --pages 1
-uvicorn api.main:app --host 0.0.0.0 --port 8000
-streamlit run frontend/app.py
-=======
 # 🛍 Amazon Deals Scraper & Dashboard
 
 Scrapes Amazon product data (title, brand, price, discount, rating, etc.), stores results in MongoDB, and provides a REST API with FastAPI + a Streamlit dashboard for visualization.
@@ -24,9 +12,17 @@ Scrapes Amazon product data (title, brand, price, discount, rating, etc.), store
 ## 🧱 Stack
 Python · Playwright · MongoDB · FastAPI · Streamlit · Docker
 
-## ▶️ Run locally
-```bash
-docker compose up -d
-python -m scraper.scraper.scrape_amazon_pdp "soin visage" --pages 1
+---
 
->>>>>>> ffaf9496f167347e66a6bc7b702ef7c9dd52f582
+## ⚙️ Setup
+
+```bash
+# 1️⃣ Start MongoDB (and optional mongo-express)
+docker compose up -d
+
+# 2️⃣ Create virtual environment
+python -m venv .venv311
+.\.venv311\Scripts\activate
+
+# 3️⃣ Install dependencies
+pip install -r requirements.txt
