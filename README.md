@@ -2,19 +2,19 @@
 
 Scrapes Amazon product data (title, brand, price, discount, rating, etc.), stores results in MongoDB, and provides a REST API with FastAPI + a Streamlit dashboard for visualization.
 
-## 🚀 Features
+##  Features
 - Playwright-based scraper (multi-page support)
 - MongoDB database
 - FastAPI REST endpoints (`/products`, `/best-deals`)
 - Streamlit dashboard
 - Docker Compose setup for MongoDB + API + UI
 
-## 🧱 Stack
+##  Stack
 Python · Playwright · MongoDB · FastAPI · Streamlit · Docker
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ```bash
 # 1️⃣ Start MongoDB (and optional mongo-express)
